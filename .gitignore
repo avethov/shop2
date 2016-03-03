@@ -210,3 +210,15 @@ FakesAssemblies/
 GeneratedArtifacts/
 _Pvt_Extensions/
 ModelManifest.xml
+
+# Python enviroment
+env/
+
+# sqlite3 database
+*.sqlite3
+
+*.sln
+*.mht
+*.pyproj
+.gitattributes
+manage.py
