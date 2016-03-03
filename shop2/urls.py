@@ -1,3 +1,6 @@
+"""
+Definition of urls for shop2.
+"""
 
 from datetime import datetime
 from django.conf.urls import patterns, url
