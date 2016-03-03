@@ -221,3 +221,4 @@ env/
 *.mht
 *.pyproj
 .gitattributes
+manage.py
