@@ -216,3 +216,8 @@ env/
 
 # sqlite3 database
 *.sqlite3
+
+*.sln
+*.mht
+*.pyproj
+.gitattributes
