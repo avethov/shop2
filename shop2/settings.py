@@ -106,7 +106,6 @@ TEMPLATES = [
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
             path.join(PROJECT_ROOT, 'templates'),
-            #path.join(PROJECT_ROOT, 'templates').replace('\\', '/'),
         ],
         #'APP_DIRS': True,
         'OPTIONS': {
@@ -159,6 +158,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.admin',
     'apps.example',
+    'apps.catalogue',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
 )

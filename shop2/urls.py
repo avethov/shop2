@@ -12,7 +12,7 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     # Examples:
-    url(r'^$', 'apps.example.views.home', name='home'),
+    #url(r'^$', 'apps.example.views.home', name='home'),
     url(r'^contact$', 'apps.example.views.contact', name='contact'),
     url(r'^about', 'apps.example.views.about', name='about'),
     url(r'^login/$',
@@ -38,4 +38,7 @@ urlpatterns = patterns('',
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^$', 'apps.catalogue.views.index', name='index'),
+    url(r'^list1/', include('apps.catalogue.urls')),
+    url(r'^list2/', 'apps.catalogue.views.Product2View', name='Product2View'),
 )
